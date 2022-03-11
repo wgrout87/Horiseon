@@ -11,6 +11,4 @@ This repository contains a refactoring of the Horiseon webpage. The purpose for 
 ## Usage
 This repository contains a webpage that can be viewed in a desktop browser such as Google Chrome. It should resemeble the following screenshot. The page has not been formatted for mobile devices.
 
-    ```md
-    ![alt text](assets/images/horiseon-webpage.png)
-    ```
+    ![Horiseon Webpage Screenshot](./assets/images/horiseon-webpage.png)
