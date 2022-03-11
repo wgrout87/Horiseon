@@ -16,6 +16,7 @@ p {
 }
 
 /* BEGIN HEADER */
+/* Basic styling for the header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,15 +24,18 @@ header {
     color: #ffffff;
 }
 
+/* Sets up inline-block style for the Horiseon logo to allow nav elements to fall inline later */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Alters the color of "seo" in Horiseon logo */
 header h1 span {
     color: #d9dcd6;
 }
 
+/* Basic styling for the nav elements */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,11 +44,13 @@ header nav {
     font-size: 20px;
 }
 
+/* Places nav section inline with the Horiseon logo */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Styles anchor elements for nav links */
 header a {
     color: #ffffff;
     text-decoration: none;
@@ -52,6 +58,7 @@ header a {
 /* END HEADER */
 
 /* BEGIN HERO */
+/* Styles the background image of the people working at a desk */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,6 +69,7 @@ header a {
 }
 /* END HERO */
 
+/* BEGIN UTILITY CLASSES */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,14 +79,17 @@ header a {
     float: right;
     margin-left: 25px;
 }
+/* END UTILITY CLASSES */
 
 /* BEGIN CONTENT */
+/* Basic style for the content section allowing the benefits section to fit in to its right later */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Style for each of the articles within the content section */
 .content article {
     margin-bottom: 20px;
     padding: 50px;
@@ -88,17 +99,20 @@ header a {
     color: #ffffff;
 }
 
+/* Sets image size */
 .content img {
     max-height: 200px;
 }
 
+/* Style for the headings within the content section */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 /* END CONTENT */
 
-/*BEGIN BENEFITS */
+/* BEGIN BENEFITS */
+/* Basic style for the benefits section placing it to the right next to the content section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -110,16 +124,19 @@ header a {
     background-color: #2589bd;
 }
 
+/* General style for the benefit section */
 .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Styles the headings in the benefit section */
 .benefits div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Centers images and sets size */
 .benefits img {
     display: block;
     margin: 10px auto;
@@ -128,6 +145,7 @@ header a {
 /*END BENEFITS */
 
 /* BEGIN FOOTER */
+/* Basic styling for the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -135,6 +153,7 @@ footer {
     text-align: center;
 }
 
+/* Decreases the h2 size */
 footer h2 {
     font-size: 20px;
 }
