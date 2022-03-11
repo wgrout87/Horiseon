@@ -6,9 +6,11 @@ This repository contains a refactoring of the Horiseon webpage. The purpose for 
 ## Links
 
 [Deployed website](https://wgrout87.github.io/Horiseon/)
+
 [Code repository](https://github.com/wgrout87/Horiseon)
+
 
 ## Usage
 This repository contains a webpage that can be viewed in a desktop browser such as Google Chrome. It should resemeble the following screenshot. The page has not been formatted for mobile devices.
 
-    ![Horiseon Webpage Screenshot](assets/images/horiseon-webpage.png)
+![Horiseon Webpage Screenshot](./assets/images/horiseon-webpage.png)
